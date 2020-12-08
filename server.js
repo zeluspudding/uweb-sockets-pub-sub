@@ -1,4 +1,3 @@
-'use strict';
 const uWS = require('uWebSockets.js'); // npm install uNetworking/uWebSockets.js#v16.2.0
 
 // an "app" is much like Express.js apps with URL routes,

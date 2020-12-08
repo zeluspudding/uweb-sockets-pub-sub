@@ -6,7 +6,7 @@
 
 				function main() {
 					/* Connect to the server */
-          var HOST = location.origin.replace(/^http/, 'ws')
+          var HOST = location.origin.replace(/^http/, 'wss')
 					ws = new WebSocket(HOST);
 					ws.binaryType = 'arraybuffer';
 
