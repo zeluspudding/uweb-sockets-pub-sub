@@ -1,0 +1,25 @@
+{
+  "name": "uweb-sockets-pub-sub",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeluspudding/uweb-sockets-pub-sub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeluspudding/uweb-sockets-pub-sub/issues"
+  },
+  "homepage": "https://github.com/zeluspudding/uweb-sockets-pub-sub#readme",
+  "dependencies": {
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v18.11.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
