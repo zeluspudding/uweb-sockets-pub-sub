@@ -6,8 +6,8 @@
 
 				function main() {
 					/* Connect to the server */
-          var HOST = location.origin.replace(/^http/, 'wss')
-					ws = new WebSocket(HOST);
+          //var HOST = location.origin.replace(/^http/, 'wss')
+					ws = new WebSocket('wss://uwebsockets-pub-sub.herokuapp.com/');
 					ws.binaryType = 'arraybuffer';
 
 					ws.onopen = () => {
